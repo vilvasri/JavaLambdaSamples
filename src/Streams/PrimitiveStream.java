@@ -12,7 +12,7 @@ public class PrimitiveStream {
                 .forEach(System.out::println);
 
         //Average and mapToInt are aggregate functions of streams
-        
+
         Arrays.stream(new int[] {1,2,3,4})
                 .map(n -> n*n)
                 .average().ifPresent(System.out::println);
